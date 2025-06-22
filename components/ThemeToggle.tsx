@@ -17,7 +17,7 @@ export default function ThemeToggle() {
   };
 
   return (
-    <button onClick={toggleTheme} className="ml-auto px-2 py-1 text-sm">
+    <button onClick={toggleTheme} className="ml-auto px-2 py-1 text-sm bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
       {theme === 'dark' ? '🌞 Light' : '🌙 Dark'}
     </button>
   );

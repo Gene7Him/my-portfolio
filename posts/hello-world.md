@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+content: "Hi welcome to my Blog page!"
 date: "2025-06-21"
 ---
 

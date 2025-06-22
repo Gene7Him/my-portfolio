@@ -6,6 +6,23 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+/* globals.css or a custom class */
+.bg-animated-light {
+  @apply bg-gradient-to-br from-[#f9f5ec] via-[#e6f0ff] to-[#d0e0ff];
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
 }
+
+.bg-animated-dark {
+  @apply bg-gradient-to-br from-[#1e1e2f] via-[#2c3e50] to-[#1f2937];
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+

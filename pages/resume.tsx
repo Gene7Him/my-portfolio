@@ -3,11 +3,12 @@ import Navbar from '../components/Navbar';
 export default function Resume() {
   return (
     <>
-      <Navbar />
-      <main className="p-8">
-        <h1 className="text-2xl font-bold mb-4">Resume</h1>
+      <div className="min-h-screen flex flex-col">
+      <main className="flex-1 flex flex-col justify-center items-center text-center p-10">
+        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4 drop-shadow-lg">Resume</h1>
         <a href="/resume.pdf" target="_blank" className="text-blue-500">Download my resume</a>
       </main>
+      </div>
     </>
   );
 }
