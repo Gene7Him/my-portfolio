@@ -22,7 +22,7 @@ export default function ProjectCard({ title, description, link, stack }: Props) 
       <h3 className="text-xl font-semibold">{title}</h3>
       <p className="text-sm text-gray-600 dark:text-gray-300 my-2">{description}</p>
       <div className="text-xs text-blue-600">{stack.join(" • ")}</div>
-      <a href={link} target="_blank" className="text-sm text-blue-500 mt-2 inline-block hover:underline">View on GitHub</a>
+      <a href={link} target="_blank" className="text-sm text-blue-500 mt-2 inline-block hover:underline">View it Here</a>
     </div>
     </motion.section>
   );
