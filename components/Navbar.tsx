@@ -23,9 +23,14 @@ export default function Navbar() {
             href="https://www.foundbyfaison.tech"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="flex items-center space-x-2 hover:opacity-90"
           >
-            FoundByFaison
+            <img
+              src="/logomain.png"
+              alt="FoundByFaison Logo"
+              className="w-6 h-6 transition-transform duration-300 hover:scale-110"
+            />
+            <span className="underline decoration-pink-500 decoration-2 hover:no-underline">FoundByFaison</span>
           </a>
         </li>
       </ul>

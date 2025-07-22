@@ -5,6 +5,19 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
+
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6 }}
+      className="mb-8"
+    >
+      <img
+        src="/foundbyfaison-logo.png"
+        alt="From Idea to Product - Faison"
+        className="w-48 sm:w-56 md:w-64 mx-auto transition-transform duration-500 hover:scale-105"
+      />
+    </motion.div>
     
     <div className="min-h-screen flex flex-col">
       <main className="flex-1 flex flex-col justify-center items-center text-center p-10">
