@@ -11,6 +11,14 @@ export default function Footer() {
         <a href="https://linkedin.com/in/eugenefaison7" className="hover:underline">
           LinkedIn
         </a>
+        <a
+          href="https://www.foundbyfaison.tech"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline text-blue-500 dark:text-blue-400"
+        >
+          FoundByFaison
+        </a>
       </div>
     </footer>
   );

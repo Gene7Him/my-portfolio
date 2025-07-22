@@ -23,7 +23,7 @@ export default function Navbar() {
             href="https://www.foundbyfaison.tech"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center space-x-2 hover:opacity-90"
+            className="flex items-center space-x-2 hover:underline"
           >
             <img
               src="/logomain.png"
