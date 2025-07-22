@@ -18,6 +18,16 @@ export default function Navbar() {
         <li><a href="/projects" className="hover:underline">Projects</a></li>
         <li><a href="/about" className="hover:underline">About</a></li>
         <li><a href="/resume" className="hover:underline">Resume</a></li>
+        <li>
+          <a
+            href="https://www.foundbyfaison.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            FoundByFaison
+          </a>
+        </li>
       </ul>
       <ThemeToggle />
     </nav>
