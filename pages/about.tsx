@@ -1,8 +1,26 @@
 import Navbar from '../components/Navbar';
+import { motion } from 'framer-motion';
 
 export default function About() {
   return (
     <>
+
+      <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="relative flex justify-center items-center mb-10"
+          >
+
+            <div className="absolute -inset-1 bg-gradient-to-r from-pink-400 to-purple-600 rounded-xl blur-xl opacity-30 animate-pulse" />
+
+            <img
+              src="/logomain.png"
+              alt="From Idea to Product - Faison"
+          className="w-48 mx-auto animate-float"      />
+      </motion.div>
+
+
       <div className="min-h-screen flex flex-col">
       <main className="flex-1 flex flex-col justify-center items-center text-center p-10">
         <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4 drop-shadow-lg">About Me</h1>
