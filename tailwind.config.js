@@ -29,12 +29,17 @@ module.exports = {
         'dark-violet': 'linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460)',
       },
       keyframes: {
+        float: {
+        '0%, 100%': { transform: 'translateY(0px)' },
+        '50%': { transform: 'translateY(-8px)' },
+        },
         'gradient-y': {
           '0%, 100%': { backgroundPosition: 'center top' },
           '50%': { backgroundPosition: 'center bottom' },
         },
       },
       animation: {
+        float: "float 6s ease-in-out infinite",
         'bg-pan': 'gradient-y 15s ease infinite',
       },
     },

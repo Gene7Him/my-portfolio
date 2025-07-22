@@ -7,16 +7,18 @@ export default function Home() {
     <>
 
     <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.6 }}
-      className="mb-8"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="relative flex justify-center items-center mb-10"
     >
+
+      <div className="absolute -inset-1 bg-gradient-to-r from-pink-400 to-purple-600 rounded-xl blur-xl opacity-30 animate-pulse" />
+
       <img
-        src="/foundbyfaison-logo.png"
+        src="/logomain.png"
         alt="From Idea to Product - Faison"
-        className="w-48 sm:w-56 md:w-64 mx-auto transition-transform duration-500 hover:scale-105"
-      />
+    className="w-48 mx-auto animate-float"      />
     </motion.div>
     
     <div className="min-h-screen flex flex-col">
