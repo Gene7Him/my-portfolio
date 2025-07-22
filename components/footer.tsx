@@ -15,7 +15,7 @@ export default function Footer() {
           href="https://www.foundbyfaison.tech"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:underline text-blue-500 dark:text-blue-400"
+          className="hover:underline"
         >
           FoundByFaison
         </a>
