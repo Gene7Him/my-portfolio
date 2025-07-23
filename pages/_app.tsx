@@ -10,11 +10,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       
       <main className="flex-1">
         <Component {...pageProps} />
-      </main>
-      
+      </main> 
       <Footer />
     </div>
-      
   ); 
 }
 
