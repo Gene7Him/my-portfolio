@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
-import '../styles/globals.css'; // adjust if using Tailwind or CSS
-import Navbar from '../components/Navbar'; // adjust the path if needed
-import Footer from '../components/footer'; // adjust the path if needed
+import '../styles/globals.css'; 
+import Navbar from '../components/Navbar'; 
+import Footer from '../components/footer'; 
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
