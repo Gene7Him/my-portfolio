@@ -17,6 +17,13 @@ const projects = [
     link: "https://www.foundbyfaison.tech",
     stack: ["Next.js", "Vite", "Tailwind", "Vercel"],
   },
+  {
+  title: "HomeRun Delivery",
+  description: "A courier dispatch and delivery tracking system built to streamline logistics and driver management in real time.",
+  link: "https://homerundelivery.vercel.app",
+  stack: ["Next.js", "Node.js", "PostgreSQL", "Tailwind", "Vite"]
+},
+
 
 ];
 
