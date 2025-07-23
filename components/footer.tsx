@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-baseDark text-center mt-auto text-gray-700 dark:text-gray-300 leading-relaxed tracking-tight">
+    <footer className="bg-baseDark text-center py-4 mt-auto text-sm text-gray-700 dark:text-gray-300 leading-relaxed tracking-tight">
       <p className="text-sm">
         © {new Date().getFullYear()} Eugene Faison — All rights reserved.
       </p>

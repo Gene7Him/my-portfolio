@@ -5,10 +5,10 @@ import Footer from '../components/footer'; // adjust the path if needed
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-      <div className="min-h-screen bg-beige-gradient text-gray-900 dark:bg-dark-violet bg-[length:400%_400%] animate-bg-pan text-gray-900 dark:text-white">
+      <div className="flex flex-col min-h-screen bg-beige-gradient text-gray-900 dark:bg-dark-violet bg-[length:400%_400%] animate-bg-pan text-gray-900 dark:text-white">
       <Navbar />
       
-      <main className="flex-1">
+      <main className="flex-grow">
         <Component {...pageProps} />
       </main> 
       <Footer />
