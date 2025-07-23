@@ -58,7 +58,7 @@ export default function Navbar() {
 
     {/* Mobile Dropdown */}
       {isOpen && (
-        <ul className="md:hidden px-6 pb-4 space-y-2">
+        <ul className="md:hidden px-6 pb-4 space-y-2 font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-relaxed tracking-tight">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/projects">Projects</Link></li>
           <li><Link href="/about">About</Link></li>
