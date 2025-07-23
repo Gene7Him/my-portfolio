@@ -30,7 +30,7 @@ export default function Navbar() {
           </button>
         </div>
 
-      <ul className="flex space-x-4 font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4 leading-relaxed tracking-tight">
+      <ul className="flex space-x-4 font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-relaxed tracking-tight hidden">
         <li><a href="/" className="hover:underline">Home</a></li>
         <li><a href="/projects" className="hover:underline">Projects</a></li>
         <li><a href="/about" className="hover:underline">About</a></li>
