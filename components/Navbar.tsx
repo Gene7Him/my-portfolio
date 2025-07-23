@@ -63,21 +63,7 @@ export default function Navbar() {
           <li><Link href="/projects">Projects</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/resume">Resume</Link></li>
-          <li>
-          <a
-            href="https://www.foundbyfaison.tech"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-2 hover:underline"
-          >
-            <img
-              src="/logomain.png"
-              alt="FoundByFaison Logo"
-              className="w-6 h-6 transition-transform duration-300 hover:scale-110"
-            />
-            <span className="hover:no-underline">FoundByFaison</span>
-          </a>
-        </li>
+          <li><a href="https://foundbyfaison.tech" target="_blank">FoundByFaison</a></li>
           <ThemeToggle />
         </ul>
       )}
